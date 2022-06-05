@@ -1,6 +1,6 @@
 # Example profile page
 
-![Screenshot of profile page](/screenshot.png)
+![Screenshot of profile page](screenshot.png)
 
 This profile page demonstrates the use of
 
