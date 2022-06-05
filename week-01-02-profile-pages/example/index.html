@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Smokey</title>
+    <meta name="description" content="Cute black cat, Meowtangles engineer" />
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <script src="reveal.js"></script>
+    <script src="https://unpkg.com/emojisplosion/lib/global.js"></script>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐱</text></svg>"
+    />
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="profile-block">
+        <img
+          class="profile-pic"
+          src="/catto.png"
+          width="96px"
+          alt="A photo of Smokey"
+        />
+        <div class="profile-text">
+          <h1>Smokey</h1>
+          <span
+            >Meowtangles Engineer at
+            <span class="highlight-projects">CSESoc Projects</span>
+          </span>
+        </div>
+      </div>
+      <h2>Introduction</h2>
+      <p>
+        Meow! I'm a black cat who develops the backend at Meowtangles. I'm
+        passionate about engineering low-latency systems, Rust and playing with
+        my plushies.
+      </p>
+      <div class="grid-container">
+        <div class="grid-item">
+          <h2>Hobbies</h2>
+          <ul>
+            <li>Running around the house</li>
+            <li>Asking my hoomans for cuddles</li>
+            <li>Terrorising other cats at night</li>
+          </ul>
+        </div>
+        <div class="grid-item">
+          <h2>Work experience</h2>
+          <h3>CSESoc Projects</h3>
+          <span>2020 - Present</span>
+          <ul>
+            <li>
+              Architecting the back-end of
+              <span class="highlight-meowtangles">Meowtangles</span>, a
+              scheduler for playtime with cats at UNSW
+            </li>
+          </ul>
+        </div>
+        <div class="grid-item" id="selfie-container">
+          <h2>Recent selfie I took</h2>
+          <button onClick="revealSelfie()">See a selfie of me!</button>
+          <img
+            id="selfie"
+            src="/selfie.jpg"
+            alt="A selfie of Smokey"
+            width="200px"
+            height="150px"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
