@@ -9,7 +9,7 @@ This profile page demonstrates the use of
 - CSS Flexbox and Grid to layout elements
 - Basic JavaScript to add interactivity
 
-A guided tutorial from [Jeffrey](https://github.com/jeffreydyao) can be found here.
+A guided tutorial from [Jeffrey](https://github.com/jeffreydyao) can be found [here](https://www.loom.com/share/2dec5e825f3e4c0b9ea1a8ebdcd0871e).
 
 > This page is **not responsive** (desktop-only) as it demonstrates basic web concepts only. Responsive layouts are critical to modern web development. Responsive means the site layout adapts across different devices (breakpoints), i.e. mobile, table, desktop. A good tutorial is [here](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design). **In general, design mobile-first.**
 
